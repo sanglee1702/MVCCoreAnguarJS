@@ -1,0 +1,11 @@
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\bin\Debug\netcoreapp2.0\MVCCoreAngularJS.deps.json
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\bin\Debug\netcoreapp2.0\MVCCoreAngularJS.runtimeconfig.json
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\bin\Debug\netcoreapp2.0\MVCCoreAngularJS.runtimeconfig.dev.json
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\bin\Debug\netcoreapp2.0\MVCCoreAngularJS.dll
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\bin\Debug\netcoreapp2.0\MVCCoreAngularJS.pdb
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.csprojAssemblyReference.cache
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.csproj.CoreCompileInputs.cache
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.AssemblyInfoInputs.cache
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.AssemblyInfo.cs
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.dll
+D:\thuc hanh\Test\MVCCoreAngularJS\MVCCoreAngularJS\obj\Debug\netcoreapp2.0\MVCCoreAngularJS.pdb

@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"DBContext","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":true,"OutputPath":"Models","ProjectRootNamespace":"MVCCoreAngularJS","SelectedToBeGenerated":0,"Tables":["dbo.Product","dbo.User"],"UseDatabaseNames":false,"UseFluentApiOnly":true,"UseHandleBars":false,"UseInflector":false}

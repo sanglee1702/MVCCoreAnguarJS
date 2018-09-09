@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "User";
+}
+
+<h2>Create User</h2>
+
+<div id="content" ng-controller="UserController">
+    <span ng-show="isViewLoading" class="viewLoading">
+        <img src="~/Content/images/ng-loader.gif" /> loading...
+    </span>
+    <div ng-class="result">{{message}}</div>
+    <hr />
+    <form name="frmUser">
+        <div>
+            <input type="hidden" name="cid" ng-model="userModel.id" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="email" ng-model="userModel.email" placeholder="" />
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="" ng-model="userModel.password" />
+        </div>
+        <div class="btn">
+            <input type="submit" value="Save" ng-click="saveUser()">
+            <input type="submit" value="Update" ng-click="updateUser()">
+        </div>
+    </form>
+    <hr />
+
+    <h2>All Users</h2>
+    <table class="table table-striped">
+        <tr ng-repeat="userModel in ListUser">
+            <td>{{userModel.id}}</td>
+            <td>{{userModel.email}}</td>
+            <td>{{userModel.password}}</td>
+            <td>
+                <a href="#" title="Edit Record" ng-click="getUser(userModel)">
+                    <img src="~/Content/images/edit.png" />
+                </a><a href="#" title="Delete Record" ng-click="deleteUser(userModel)">
+                    <img src="~/Content/images/erase.png" />
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+@section JavaScript{
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/ScriptsNg/ProductController.js"></script>
+}

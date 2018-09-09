@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<div id="content" ng-controller="ProductController">
+    <hr />
+    <form name="frmCustomer">
+        <div>
+            <input type="hidden" name="cid" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="" />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="" />
+        </div>
+        <div class="btn">
+            <input type="submit" value="Save">
+            <input type="submit" value="Update">
+        </div>
+    </form>
+</div>
+
+@section JavaScript{
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/ScriptsNg/ProductController.js"></script>
+}

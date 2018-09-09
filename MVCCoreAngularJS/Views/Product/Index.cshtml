@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Product";
+}
+
+<h2>Create Product</h2>
+
+<div id="content" ng-controller="ProductController">
+    <span ng-show="isViewLoading" class="viewLoading">
+        <img src="~/Content/images/ng-loader.gif" /> loading...
+    </span>
+    <div ng-class="result">{{message}}</div>
+    <hr />
+    <form name="frmProduct">
+        <div>
+            <input type="hidden" name="pid" ng-model="proModel.id" />
+        </div>
+        <div>
+            <label>Name</label>
+            <input type="text" name="name" ng-model="proModel.name" placeholder="" />
+        </div>
+        <div>
+            <label>Price</label>
+            <input type="text" name="price" ng-model="proModel.price" placeholder="" />
+        </div>
+        <div class="btn">
+            <input type="submit" value="Save" ng-click="saveProduct()">
+            <input type="submit" value="Update" ng-click="updateProduct()">
+        </div>
+    </form>
+    <hr />
+
+    <h2>All Products</h2>
+    <table class="table table-striped">
+        <tr ng-repeat="proModel in ListProduct">
+            <td>{{proModel.id}}</td>
+            <td>{{proModel.name}}</td>
+            <td>{{proModel.price | currency }}</td>
+            <td>
+                <a href="#" title="Edit Record" ng-click="getProduct(proModel)">
+                    <img src="~/Content/images/edit.png" />
+                </a><a href="#" title="Delete Record" ng-click="deleteProduct(proModel)">
+                    <img src="~/Content/images/erase.png" />
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+@section JavaScript{
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/ScriptsNg/ProductController.js"></script>
+}
+
+
